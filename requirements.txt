@@ -1,0 +1,2 @@
+# Core + bundled MCP example use only Python 3.11+ standard library.
+# External MCP servers may need their own dependencies.

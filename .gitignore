@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.deepseek-agent/
+playground/.deepseek-agent/
+update-backups/
