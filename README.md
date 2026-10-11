@@ -406,11 +406,7 @@ python agent.py --doctor
 Token 预算是进程级软限制，请求完成后累计输入+输出 Token，检查后才发下一次请求。
 并发在途请求可能超出预算，网络重试也可能在服务端产生额外费用，不能当作精确账单上限。
 
-## 8. 来源
-
-设计学习来源：<https://github.com/shareAI-lab/learn-claude-code> 以及本地 s01–s17 章节。
-本文件夹采用独立模块实现，不依赖原教程中 `fcntl` 或写死的课程子目录。
-
+## 8.API格式
 API 格式核对来源：
 
 - <https://api-docs.deepseek.com/>
